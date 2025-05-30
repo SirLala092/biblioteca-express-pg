@@ -1,21 +1,16 @@
 
-  {
-  "name": "biblioteca-express-pg",
+{
+  "name": "express_crud",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-  "start": "node index.js"
+"scripts": {
+  "start": "json-server --watch db.json --port 3000"
 },
-
-
-  }
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "pg": "^8.16.0"
-  },
-{
+  "description": "",
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
